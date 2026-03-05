@@ -238,6 +238,27 @@ footer .container {
   color: var(--text-tertiary);
 }
 
+/* ── Home Button ───────────────────────────────────── */
+
+.home-button {
+  display: inline-block;
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  z-index: 100;
+  transition: opacity 0.2s ease;
+}
+
+.home-button:hover {
+  opacity: 0.8;
+}
+
+.home-button-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+}
+
 /* ── Legal Pages ────────────────────────────────────── */
 
 .legal {
